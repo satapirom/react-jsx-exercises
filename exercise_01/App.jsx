@@ -1,23 +1,51 @@
-import React from "react";
+import React from 'react';
 
 function App() {
-	// code here
+  return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+  );
 }
 
 function Header() {
-	// code here
+  return (
+    <header>
+      <h1>Welcome to My Website</h1>
+      <Nav />
+    </header>
+  );
 }
 
 function Nav() {
-	//code here
+  return (
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  );
 }
 
 function Main() {
-	// code here
+  return (
+    <section>
+      <h2>About Us</h2>
+      <p>We are a company that values excellence and innovation.</p>
+    </section>
+  );
 }
 
 function Footer() {
-	// code here
+  return (
+    <footer>
+      <p>&copy; 2024 My Website</p>
+    </footer>
+  );
 }
 
 export default App;
