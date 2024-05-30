@@ -4,7 +4,8 @@
 
 ## 2. In Header:
 
-## - If buttun ON, render "Current Temperature"
+## - If buttun ON, render "
+"
 
 ## - If button OFF, don't render "Current Temperature"
 
