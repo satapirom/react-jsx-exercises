@@ -34,7 +34,7 @@ const TemperatureButton = ({temperature, decrease,increase}) =>{
 		<footer>
 			<span>Current Temperature:{temperature}°C</span>
 			<button onClick={decrease}>Down</button>
-			<button onClick={increase}>Down</button>
+			<button onClick={increase}>Up</button>
 		</footer>
 	);
 
